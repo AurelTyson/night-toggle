@@ -74,6 +74,7 @@
 		74D3D1CA2163EFB200AC7744 /* Night Toggle */ = {
 			isa = PBXGroup;
 			children = (
+				74D3D1E72163F20900AC7744 /* Classes */,
 				74D3D1CB2163EFB200AC7744 /* AppDelegate.swift */,
 				74D3D1CD2163EFB300AC7744 /* Assets.xcassets */,
 				74D3D1CF2163EFB300AC7744 /* MainMenu.xib */,
@@ -90,6 +91,13 @@
 				74D3D1DE2163EFB300AC7744 /* Info.plist */,
 			);
 			path = "Night ToggleTests";
+			sourceTree = "<group>";
+		};
+		74D3D1E72163F20900AC7744 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
