@@ -11,6 +11,11 @@
 		74D3D1CE2163EFB300AC7744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D3D1CD2163EFB300AC7744 /* Assets.xcassets */; };
 		74D3D1D12163EFB300AC7744 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74D3D1CF2163EFB300AC7744 /* MainMenu.xib */; };
 		74D3D1DD2163EFB300AC7744 /* Night_ToggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3D1DC2163EFB300AC7744 /* Night_ToggleTests.swift */; };
+		74D3D1EA2164034100AC7744 /* TooltipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3D1E82164034100AC7744 /* TooltipViewController.swift */; };
+		74D3D1EB2164034100AC7744 /* TooltipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74D3D1E92164034100AC7744 /* TooltipViewController.xib */; };
+		74D3D1F02164061D00AC7744 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3D1EF2164061D00AC7744 /* EventMonitor.swift */; };
+		C9AA5847AF1C4E5CA41898F0 /* Pods_Night_ToggleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2386A2AFFFC84FBF495A0094 /* Pods_Night_ToggleTests.framework */; };
+		F03EEA90F7854272903567D8 /* Pods_Night_Toggle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9BBDE4133B62B6BD9FF8EF /* Pods_Night_Toggle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2386A2AFFFC84FBF495A0094 /* Pods_Night_ToggleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Night_ToggleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDB95C26ADAFE29775956C8 /* Pods-Night ToggleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Night ToggleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Night ToggleTests/Pods-Night ToggleTests.release.xcconfig"; sourceTree = "<group>"; };
+		38F8EE7B0B852AD2F859DBD1 /* Pods-Night ToggleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Night ToggleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Night ToggleTests/Pods-Night ToggleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74D3D1C82163EFB200AC7744 /* Night Toggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Night Toggle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D3D1CB2163EFB200AC7744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74D3D1CD2163EFB300AC7744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,6 +41,12 @@
 		74D3D1D82163EFB300AC7744 /* Night ToggleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Night ToggleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D3D1DC2163EFB300AC7744 /* Night_ToggleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Night_ToggleTests.swift; sourceTree = "<group>"; };
 		74D3D1DE2163EFB300AC7744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D3D1E82164034100AC7744 /* TooltipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipViewController.swift; sourceTree = "<group>"; };
+		74D3D1E92164034100AC7744 /* TooltipViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TooltipViewController.xib; sourceTree = "<group>"; };
+		74D3D1EF2164061D00AC7744 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		88B3291B23878D3CAA118C6C /* Pods-Night Toggle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Night Toggle.release.xcconfig"; path = "Pods/Target Support Files/Pods-Night Toggle/Pods-Night Toggle.release.xcconfig"; sourceTree = "<group>"; };
+		91EF33783D9BFBABF6828D22 /* Pods-Night Toggle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Night Toggle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Night Toggle/Pods-Night Toggle.debug.xcconfig"; sourceTree = "<group>"; };
+		BA9BBDE4133B62B6BD9FF8EF /* Pods_Night_Toggle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Night_Toggle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03EEA90F7854272903567D8 /* Pods_Night_Toggle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,18 +62,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9AA5847AF1C4E5CA41898F0 /* Pods_Night_ToggleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		138B7B2095FAE1A1ACAD04D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BBDE4133B62B6BD9FF8EF /* Pods_Night_Toggle.framework */,
+				2386A2AFFFC84FBF495A0094 /* Pods_Night_ToggleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		74D3D1BF2163EFB200AC7744 = {
 			isa = PBXGroup;
 			children = (
 				74D3D1CA2163EFB200AC7744 /* Night Toggle */,
 				74D3D1DB2163EFB300AC7744 /* Night ToggleTests */,
 				74D3D1C92163EFB200AC7744 /* Products */,
+				9C9F74B0F362CF64AFF5D72D /* Pods */,
+				138B7B2095FAE1A1ACAD04D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +123,46 @@
 		74D3D1E72163F20900AC7744 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				74D3D1EE2164060C00AC7744 /* Utils */,
+				74D3D1EC2164034500AC7744 /* Views */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		74D3D1EC2164034500AC7744 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74D3D1ED2164034B00AC7744 /* Tooltip */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74D3D1ED2164034B00AC7744 /* Tooltip */ = {
+			isa = PBXGroup;
+			children = (
+				74D3D1E82164034100AC7744 /* TooltipViewController.swift */,
+				74D3D1E92164034100AC7744 /* TooltipViewController.xib */,
+			);
+			path = Tooltip;
+			sourceTree = "<group>";
+		};
+		74D3D1EE2164060C00AC7744 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				74D3D1EF2164061D00AC7744 /* EventMonitor.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9C9F74B0F362CF64AFF5D72D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91EF33783D9BFBABF6828D22 /* Pods-Night Toggle.debug.xcconfig */,
+				88B3291B23878D3CAA118C6C /* Pods-Night Toggle.release.xcconfig */,
+				38F8EE7B0B852AD2F859DBD1 /* Pods-Night ToggleTests.debug.xcconfig */,
+				2DDB95C26ADAFE29775956C8 /* Pods-Night ToggleTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74D3D1E12163EFB300AC7744 /* Build configuration list for PBXNativeTarget "Night Toggle" */;
 			buildPhases = (
+				52D07CF74963313B5801D47B /* [CP] Check Pods Manifest.lock */,
 				74D3D1C42163EFB200AC7744 /* Sources */,
 				74D3D1C52163EFB200AC7744 /* Frameworks */,
 				74D3D1C62163EFB200AC7744 /* Resources */,
+				ECB8A3343F2ECF1716686A01 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74D3D1E42163EFB300AC7744 /* Build configuration list for PBXNativeTarget "Night ToggleTests" */;
 			buildPhases = (
+				9B14C98F697C848833D077E4 /* [CP] Check Pods Manifest.lock */,
 				74D3D1D42163EFB300AC7744 /* Sources */,
 				74D3D1D52163EFB300AC7744 /* Frameworks */,
 				74D3D1D62163EFB300AC7744 /* Resources */,
@@ -182,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D3D1CE2163EFB300AC7744 /* Assets.xcassets in Resources */,
+				74D3D1EB2164034100AC7744 /* TooltipViewController.xib in Resources */,
 				74D3D1D12163EFB300AC7744 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,11 +264,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52D07CF74963313B5801D47B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Night Toggle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B14C98F697C848833D077E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Night ToggleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECB8A3343F2ECF1716686A01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Night Toggle/Pods-Night Toggle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Night Toggle/Pods-Night Toggle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		74D3D1C42163EFB200AC7744 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D3D1F02164061D00AC7744 /* EventMonitor.swift in Sources */,
+				74D3D1EA2164034100AC7744 /* TooltipViewController.swift in Sources */,
 				74D3D1CC2163EFB200AC7744 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,9 +481,11 @@
 		};
 		74D3D1E22163EFB300AC7744 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91EF33783D9BFBABF6828D22 /* Pods-Night Toggle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Night Toggle/Night_Toggle.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = A6GX9BV832;
@@ -364,15 +496,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aureltyson.Night-Toggle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		74D3D1E32163EFB300AC7744 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B3291B23878D3CAA118C6C /* Pods-Night Toggle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Night Toggle/Night_Toggle.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = A6GX9BV832;
@@ -383,12 +518,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aureltyson.Night-Toggle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
 		74D3D1E52163EFB300AC7744 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F8EE7B0B852AD2F859DBD1 /* Pods-Night ToggleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -410,6 +547,7 @@
 		};
 		74D3D1E62163EFB300AC7744 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DDB95C26ADAFE29775956C8 /* Pods-Night ToggleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
