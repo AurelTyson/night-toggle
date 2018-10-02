@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74D3D1CC2163EFB200AC7744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3D1CB2163EFB200AC7744 /* AppDelegate.swift */; };
+		74D3D1CE2163EFB300AC7744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D3D1CD2163EFB300AC7744 /* Assets.xcassets */; };
+		74D3D1D12163EFB300AC7744 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74D3D1CF2163EFB300AC7744 /* MainMenu.xib */; };
+		74D3D1DD2163EFB300AC7744 /* Night_ToggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3D1DC2163EFB300AC7744 /* Night_ToggleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74D3D1D92163EFB300AC7744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74D3D1C02163EFB200AC7744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74D3D1C72163EFB200AC7744;
+			remoteInfo = "Night Toggle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74D3D1C82163EFB200AC7744 /* Night Toggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Night Toggle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D3D1CB2163EFB200AC7744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74D3D1CD2163EFB300AC7744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74D3D1D02163EFB300AC7744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		74D3D1D22163EFB300AC7744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D3D1D32163EFB300AC7744 /* Night_Toggle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Night_Toggle.entitlements; sourceTree = "<group>"; };
+		74D3D1D82163EFB300AC7744 /* Night ToggleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Night ToggleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D3D1DC2163EFB300AC7744 /* Night_ToggleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Night_ToggleTests.swift; sourceTree = "<group>"; };
+		74D3D1DE2163EFB300AC7744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74D3D1C52163EFB200AC7744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74D3D1D52163EFB300AC7744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74D3D1BF2163EFB200AC7744 = {
+			isa = PBXGroup;
+			children = (
+				74D3D1CA2163EFB200AC7744 /* Night Toggle */,
+				74D3D1DB2163EFB300AC7744 /* Night ToggleTests */,
+				74D3D1C92163EFB200AC7744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74D3D1C92163EFB200AC7744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74D3D1C82163EFB200AC7744 /* Night Toggle.app */,
+				74D3D1D82163EFB300AC7744 /* Night ToggleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74D3D1CA2163EFB200AC7744 /* Night Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				74D3D1CB2163EFB200AC7744 /* AppDelegate.swift */,
+				74D3D1CD2163EFB300AC7744 /* Assets.xcassets */,
+				74D3D1CF2163EFB300AC7744 /* MainMenu.xib */,
+				74D3D1D22163EFB300AC7744 /* Info.plist */,
+				74D3D1D32163EFB300AC7744 /* Night_Toggle.entitlements */,
+			);
+			path = "Night Toggle";
+			sourceTree = "<group>";
+		};
+		74D3D1DB2163EFB300AC7744 /* Night ToggleTests */ = {
+			isa = PBXGroup;
+			children = (
+				74D3D1DC2163EFB300AC7744 /* Night_ToggleTests.swift */,
+				74D3D1DE2163EFB300AC7744 /* Info.plist */,
+			);
+			path = "Night ToggleTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74D3D1C72163EFB200AC7744 /* Night Toggle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74D3D1E12163EFB300AC7744 /* Build configuration list for PBXNativeTarget "Night Toggle" */;
+			buildPhases = (
+				74D3D1C42163EFB200AC7744 /* Sources */,
+				74D3D1C52163EFB200AC7744 /* Frameworks */,
+				74D3D1C62163EFB200AC7744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Night Toggle";
+			productName = "Night Toggle";
+			productReference = 74D3D1C82163EFB200AC7744 /* Night Toggle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74D3D1D72163EFB300AC7744 /* Night ToggleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74D3D1E42163EFB300AC7744 /* Build configuration list for PBXNativeTarget "Night ToggleTests" */;
+			buildPhases = (
+				74D3D1D42163EFB300AC7744 /* Sources */,
+				74D3D1D52163EFB300AC7744 /* Frameworks */,
+				74D3D1D62163EFB300AC7744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74D3D1DA2163EFB300AC7744 /* PBXTargetDependency */,
+			);
+			name = "Night ToggleTests";
+			productName = "Night ToggleTests";
+			productReference = 74D3D1D82163EFB300AC7744 /* Night ToggleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74D3D1C02163EFB200AC7744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Aurel Tyson";
+				TargetAttributes = {
+					74D3D1C72163EFB200AC7744 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					74D3D1D72163EFB300AC7744 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 74D3D1C72163EFB200AC7744;
+					};
+				};
+			};
+			buildConfigurationList = 74D3D1C32163EFB200AC7744 /* Build configuration list for PBXProject "Night Toggle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74D3D1BF2163EFB200AC7744;
+			productRefGroup = 74D3D1C92163EFB200AC7744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74D3D1C72163EFB200AC7744 /* Night Toggle */,
+				74D3D1D72163EFB300AC7744 /* Night ToggleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74D3D1C62163EFB200AC7744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D3D1CE2163EFB300AC7744 /* Assets.xcassets in Resources */,
+				74D3D1D12163EFB300AC7744 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74D3D1D62163EFB300AC7744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74D3D1C42163EFB200AC7744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D3D1CC2163EFB200AC7744 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74D3D1D42163EFB300AC7744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D3D1DD2163EFB300AC7744 /* Night_ToggleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74D3D1DA2163EFB300AC7744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74D3D1C72163EFB200AC7744 /* Night Toggle */;
+			targetProxy = 74D3D1D92163EFB300AC7744 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74D3D1CF2163EFB300AC7744 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74D3D1D02163EFB300AC7744 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74D3D1DF2163EFB300AC7744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74D3D1E02163EFB300AC7744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		74D3D1E22163EFB300AC7744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Night Toggle/Night_Toggle.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A6GX9BV832;
+				INFOPLIST_FILE = "Night Toggle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aureltyson.Night-Toggle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		74D3D1E32163EFB300AC7744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Night Toggle/Night_Toggle.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A6GX9BV832;
+				INFOPLIST_FILE = "Night Toggle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aureltyson.Night-Toggle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		74D3D1E52163EFB300AC7744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A6GX9BV832;
+				INFOPLIST_FILE = "Night ToggleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aureltyson.Night-ToggleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Night Toggle.app/Contents/MacOS/Night Toggle";
+			};
+			name = Debug;
+		};
+		74D3D1E62163EFB300AC7744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A6GX9BV832;
+				INFOPLIST_FILE = "Night ToggleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aureltyson.Night-ToggleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Night Toggle.app/Contents/MacOS/Night Toggle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74D3D1C32163EFB200AC7744 /* Build configuration list for PBXProject "Night Toggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74D3D1DF2163EFB300AC7744 /* Debug */,
+				74D3D1E02163EFB300AC7744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74D3D1E12163EFB300AC7744 /* Build configuration list for PBXNativeTarget "Night Toggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74D3D1E22163EFB300AC7744 /* Debug */,
+				74D3D1E32163EFB300AC7744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74D3D1E42163EFB300AC7744 /* Build configuration list for PBXNativeTarget "Night ToggleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74D3D1E52163EFB300AC7744 /* Debug */,
+				74D3D1E62163EFB300AC7744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74D3D1C02163EFB200AC7744 /* Project object */;
+}
