@@ -1,5 +1,7 @@
 # Night Toggle
 
+![menu_icon](screenshot.png)
+
 ### Download
 
 Go to [releases](https://github.com/AurelTyson/night-toggle/releases), download the last version, unzip and you are ready to go ! 🚀
