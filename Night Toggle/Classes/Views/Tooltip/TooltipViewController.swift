@@ -39,7 +39,7 @@ public final class TooltipViewController: NSViewController {
         
         self.btnToggle.rx.tap.subscribe(onNext: { _ in
             
-            NSLog(">> Toggle !")
+            DarkMode.toggle()
             
         }).disposed(by: self.disposeBag)
     }
