@@ -17,52 +17,58 @@ public final class AppDelegate: NSObject, NSApplicationDelegate {
     
     // MARK: Attributes
     
-    private let popover = NSPopover()
     private let statusItem = NSStatusBar.system.statusItem(withLength:NSStatusItem.squareLength)
-    private var eventMonitor: EventMonitor?
+    private let contextMenu: NSMenu! = constructMenu()
     
     // MARK: AppDelegate
 
     public func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
         
-        if let button = statusItem.button {
+        // Menu icon
+        if let button = self.statusItem.button {
             button.image = NSImage(named:NSImage.Name("StatusBarButtonImage"))
-            button.action = #selector(togglePopover(_:))
-        }
-        
-        self.popover.contentViewController = TooltipViewController()
-        
-        self.eventMonitor = EventMonitor(mask: [.leftMouseDown, .rightMouseDown]) { [weak self] event in
-            if let strongSelf = self, strongSelf.popover.isShown {
-                strongSelf.closePopover(sender: event)
-            }
+            button.action = #selector(self.statusBarButtonClicked(sender:))
+            button.sendAction(on: [.leftMouseUp, .rightMouseUp])
         }
         
     }
     
-    public func applicationWillTerminate(_ aNotification: Notification) {
+    // MARK: Actions
+    
+    @objc func statusBarButtonClicked(sender: NSStatusBarButton) {
+        
+        // Current event
+        let lCurrentEvent = NSApp.currentEvent!
+        
+        // If right click
+        if lCurrentEvent.type == .rightMouseUp {
+            
+            // Show menu
+            self.statusItem.menu = self.contextMenu
+            self.statusItem.popUpMenu(contextMenu)
+            
+            // This is critical, otherwise clicks won't be processed again
+            self.statusItem.menu = nil
+            
+        }
+        else {
+            
+            // Toggle Dark mode
+            DarkMode.toggle()
+            
+        }
         
     }
     
-    @objc func togglePopover(_ sender: Any?) {
-        if popover.isShown {
-            closePopover(sender: sender)
-        } else {
-            showPopover(sender: sender)
-        }
-    }
+    // MARK: Utils
     
-    func showPopover(sender: Any?) {
-        if let button = statusItem.button {
-            popover.show(relativeTo: button.bounds, of: button, preferredEdge: NSRectEdge.minY)
-        }
-        eventMonitor?.start()
-    }
-    
-    func closePopover(sender: Any?) {
-        popover.performClose(sender)
-        eventMonitor?.stop()
+    private class func constructMenu() -> NSMenu {
+        
+        // Init the menu entries
+        let lMenu = NSMenu()
+        lMenu.addItem(NSMenuItem(title: "Quit", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
+        return lMenu
+        
     }
     
 }
