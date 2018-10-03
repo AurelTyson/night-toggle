@@ -38,7 +38,7 @@ public final class AppDelegate: NSObject, NSApplicationDelegate {
                 strongSelf.closePopover(sender: event)
             }
         }
-
+        
     }
     
     public func applicationWillTerminate(_ aNotification: Notification) {
