@@ -6,8 +6,6 @@ target 'Night Toggle' do
   use_frameworks!
 
   # Pods for Night Toggle
-  pod 'RxCocoa'
-  pod 'RxSwift'
 
   target 'Night ToggleTests' do
     inherit! :search_paths
